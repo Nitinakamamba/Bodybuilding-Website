@@ -1,0 +1,122 @@
+html
+{
+background-color: gray;
+}
+
+body
+{
+font-family: Verdana,san-serif;
+font-size: 1em;
+line-height: 1.5em;
+margin: 0;
+}
+
+
+img
+{
+width: 80%;
+}
+
+h1
+{
+font-size: 50px;
+text-align: center;
+padding-top: 30px;
+text-transform: uppercase;
+color: Red;
+}
+
+h2
+{
+color: lightgreen;
+text-transform: uppercase;
+}
+
+h3
+{
+text-align: center;
+text-transform: uppercase;
+}
+
+#Main
+{
+background-color: white;
+padding: 0cm 1cm 1cm;
+padding-top: 10px;
+}
+
+#footer
+{
+text-align: center;
+color: white;
+font-size: 0.85em;
+}
+
+#menu
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+#items
+{
+float: left;
+}
+
+a:link, a:visited
+{
+display: block;
+width: 216.6px;
+font-weight: bold;
+color: white;
+background-color: black;
+text-align: center;
+padding: 4px;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+a:hover, a:active
+{
+color: #ff5c5c;
+}
+
+#hyperlink
+{
+display: inline;
+font-weight: 100;
+color: blue;
+background-color: white;
+padding: 0px;
+text-decoration: underline;
+text-transform: none;
+}
+
+span
+{
+	color: red;
+	font-size: 1.15em;
+	text-transform: uppercase;
+}
+
+table
+{
+width: 100%;
+table-layout: fixed;
+}
+
+td
+{
+padding: 50px;
+vertical-align: top;
+}
+
+iframe
+{
+border: 0;
+width: 100%;
+height: 350px;
+}
+

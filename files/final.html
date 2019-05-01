@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<title> Gym Town </title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+<div>
+
+<h1> GYM TOWN </h1>
+
+<p>
+<ul id="menu">
+
+<li id="items"> <a href="final.html"> Home </a></li>
+<li id="items"> <a href="about.html"> About Us </a></li>
+<li id="items"> <a href="frame.html"> Subscribe </a></li>
+<li id="items"> <a href="News.html"> News </a></li>
+<li id="items"> <a href="Contact.html"> Contact </a></li>
+<li id="items"> <a href="index.html"> Find A Plan </a></li>
+
+
+</ul>
+</p>
+
+</div>
+
+<center>
+
+<div class="fade">
+  <img class="mySlides" src="try1.jpg" style="width:80%">
+  <img class="mySlides" src="try2.jpg" style="width:80%">
+  <img class="mySlides" src="try3.jpg" style="width:80%">
+</div>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+</script>
+<div>
+<p align ="center">
+<video controls autoplay>
+<source src="bb.mp4">
+</video>
+</p>
+</div>
+</p>
+</div>
+
+<p id="footer">Copyright &copy 2017 Gymtown, Venice</p>
+</body>
+</html>
